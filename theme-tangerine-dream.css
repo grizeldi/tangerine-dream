@@ -472,60 +472,60 @@
 
 :root {
   --is-dark-theme: true;
-  --color-primary: hsl(23, 88%, 58%);
   --color-primary-contrast: #000000;
-  --color-primary-dark-1: hsl(23, 88%, 63%);
-  --color-primary-dark-2: hsl(23, 88%, 68%);
-  --color-primary-dark-3: hsl(23, 88%, 73%);
-  --color-primary-dark-4: hsl(23, 88%, 75%);
-  --color-primary-dark-5: hsl(23, 88%, 83%);
-  --color-primary-dark-6: hsl(23, 88%, 90%);
-  --color-primary-dark-7: hsl(23, 88%, 98%);
-  --color-primary-light-1: hsl(23, 88%, 53%);
-  --color-primary-light-2: hsl(23, 88%, 48%);
-  --color-primary-light-3: hsl(23, 88%, 42%);
-  --color-primary-light-4: hsl(23, 88%, 33%);
-  --color-primary-light-5: hsl(23, 88%, 23%);
-  --color-primary-light-6: hsl(23, 88%, 13%);
-  --color-primary-light-7: hsl(23, 88%, 3%);
-  --color-primary-alpha-10: hsla(23, 88%, 63%, 0.9);
-  --color-primary-alpha-20: hsla(23, 88%, 63%, 0.8);
-  --color-primary-alpha-30: hsla(23, 88%, 63%, 0.7);
-  --color-primary-alpha-40: hsla(23, 88%, 63%, 0.6);
-  --color-primary-alpha-50: hsla(23, 88%, 63%, 0.5);
-  --color-primary-alpha-60: hsla(23, 88%, 63%, 0.4);
-  --color-primary-alpha-70: hsla(23, 88%, 63%, 0.3);
-  --color-primary-alpha-80: hsla(23, 88%, 63%, 0.2);
-  --color-primary-alpha-90: hsla(23, 88%, 63%, 0.1);
+  --color-primary: #ff7d37;
+  --color-primary-dark-1: #ff8747;
+  --color-primary-dark-2: #ff9a63;
+  --color-primary-dark-3: #ffac80;
+  --color-primary-dark-4: #ffbf9c;
+  --color-primary-dark-5: #ffd1b8;
+  --color-primary-dark-6: #ffe3d4;
+  --color-primary-dark-7: #fff6f1;
+  --color-primary-light-1: #ff6410;
+  --color-primary-light-2: #cf4900;
+  --color-primary-light-3: #af3d00;
+  --color-primary-light-4: #8f3200;
+  --color-primary-light-5: #702700;
+  --color-primary-light-6: #501c00;
+  --color-primary-light-7: #301100;
+  --color-primary-alpha-10: #ff874719;
+  --color-primary-alpha-20: #ff874733;
+  --color-primary-alpha-30: #ff87474b;
+  --color-primary-alpha-40: #ff874766;
+  --color-primary-alpha-50: #ff874780;
+  --color-primary-alpha-60: #ff874799;
+  --color-primary-alpha-70: #ff8747b3;
+  --color-primary-alpha-80: #ff8747cc;
+  --color-primary-alpha-90: #ff8747e1;
   --color-primary-hover: var(--color-primary-dark-1);
   --color-primary-active: var(--color-primary-light-1);
-  --color-secondary: hsl(208, 10%, 21%);
-  --color-secondary-dark-1: hsl(208, 10%, 24%);
-  --color-secondary-dark-2: hsl(208, 10%, 30%);
-  --color-secondary-dark-3: hsl(208, 10%, 37%);
-  --color-secondary-dark-4: hsl(208, 10%, 44%);
-  --color-secondary-dark-5: hsl(208, 10%, 49%);
-  --color-secondary-dark-6: hsl(208, 10%, 55%);
-  --color-secondary-dark-7: hsl(208, 10%, 60%);
-  --color-secondary-dark-8: hsl(208, 10%, 65%);
-  --color-secondary-dark-9: hsl(208, 10%, 68%);
-  --color-secondary-dark-10: hsl(208, 10%, 73%);
-  --color-secondary-dark-11: hsl(208, 10%, 78%);
-  --color-secondary-dark-12: hsl(208, 10%, 82%);
-  --color-secondary-dark-13: hsl(208, 10%, 85%);
-  --color-secondary-light-1: hsl(208, 10%, 18%);
-  --color-secondary-light-2: hsl(208, 10%, 15%);
-  --color-secondary-light-3: hsl(208, 10%, 11%);
-  --color-secondary-light-4: hsl(208, 10%, 8%);
-  --color-secondary-alpha-10: hsla(208, 10%, 21%, 0.1);
-  --color-secondary-alpha-20: hsla(208, 10%, 21%, 0.2);
-  --color-secondary-alpha-30: hsla(208, 10%, 21%, 0.3);
-  --color-secondary-alpha-40: hsla(208, 10%, 21%, 0.4);
-  --color-secondary-alpha-50: hsla(208, 10%, 21%, 0.5);
-  --color-secondary-alpha-60: hsla(208, 10%, 21%, 0.6);
-  --color-secondary-alpha-70: hsla(208, 10%, 21%, 0.7);
-  --color-secondary-alpha-80: hsla(208, 10%, 21%, 0.8);
-  --color-secondary-alpha-90: hsla(208, 10%, 21%, 0.9);
+  --color-secondary: #1a1c20; /*#2C2F35*/
+  --color-secondary-dark-1: #505665;
+  --color-secondary-dark-2: #5b6273;
+  --color-secondary-dark-3: #71798e;
+  --color-secondary-dark-4: #7f8699;
+  --color-secondary-dark-5: #8c93a4;
+  --color-secondary-dark-6: #9aa0af;
+  --color-secondary-dark-7: #a8adba;
+  --color-secondary-dark-7: #b6bac5;
+  --color-secondary-dark-8: #c4c7d0;
+  --color-secondary-dark-8: #d2d4db;
+  --color-secondary-dark-9: #dfe1e6;
+  --color-secondary-dark-10: #edeef1;
+  --color-secondary-dark-11: #fbfbfc;
+  --color-secondary-light-1: #373b46;
+  --color-secondary-light-2: #292c34;
+  --color-secondary-light-3: #1c1e23;
+  --color-secondary-light-4: #0e0f11;
+  --color-secondary-alpha-10: #2C2F35;
+  --color-secondary-alpha-20: #2C2F3533;
+  --color-secondary-alpha-30: #2C2F354b;
+  --color-secondary-alpha-40: #2C2F3566;
+  --color-secondary-alpha-50: #2C2F3580;
+  --color-secondary-alpha-60: #2C2F3599;
+  --color-secondary-alpha-70: #2C2F35b3;
+  --color-secondary-alpha-80: #2C2F35cc;
+  --color-secondary-alpha-90: #2C2F35e1;
   --color-secondary-button: var(--color-secondary-dark-4);
   --color-secondary-hover: var(--color-secondary-dark-3);
   --color-secondary-active: var(--color-secondary-dark-2);
@@ -655,7 +655,7 @@
   --color-git: #f05133;
 
   /* target-based colors */
-  --color-body: rgb(21, 25, 28);
+  --color-body: #202124;
   --color-box-header: rgb(20, 23, 25);
   --color-box-body: rgb(18, 20, 22);
   --color-box-body-highlight: #1e2226;
@@ -698,10 +698,10 @@
   --color-reaction-active-bg: var(--color-primary-light-5);
   --color-tooltip-text: #f9fafb;
   --color-tooltip-bg: #131518f2;
-  --color-nav-bg: rgb(19, 21, 23);
+  --color-nav-bg: #1D1F23;
   --color-nav-hover-bg: var(--color-secondary-light-1);
   --color-nav-text: var(--color-text);
-  --color-secondary-nav-bg: rgb(20, 23, 25);
+  --color-secondary-nav-bg: #2b2f38;
   --color-label-text: var(--color-text);
   --color-label-bg: #7c30e691;
   /*--color-label-bg: #7282924b;*/
@@ -741,3 +741,4 @@
 .emoji[aria-label="musical notes"] {
   filter: invert(100%) hue-rotate(180deg);
 }
+
